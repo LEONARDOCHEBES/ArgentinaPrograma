@@ -204,6 +204,7 @@ transition: .5s;
 
 #sobremi .sobremi a:hover{
     background-color: #ff5080;
+    color: #fff;
 }
 #sobremi .sobremi a{
     display: inline-block;

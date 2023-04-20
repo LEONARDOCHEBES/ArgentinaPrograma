@@ -116,11 +116,18 @@ transition: .5s;
     text-align: center;
 }
 
+#inicio .btn-edit {
+    margin-left: 80%;
+    font-size: 10px;
+ 
+}
+
+
 #inicio .contenido .presentacion a{
     text-decoration: none;
     display: inline-block;
     margin: 25px;
-    padding: 20px 25px;
+    padding: 10px 20px;
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
@@ -132,6 +139,8 @@ transition: .5s;
 #inicio .contenido .presentacion a:hover{
     background-color: #ff5080;
 }
+
+
 
 #icono-nav{
     color: #fff;
@@ -212,12 +221,18 @@ transition: .5s;
     text-decoration: none;
     color: #000;
     border-radius: 30px;
-    padding: 10px 20px;
+   padding: 10px 20px;
     
     border: 1px solid #000;
-    margin-top: 30px;
+    margin-top: 30px; 
     transition: .5s;
 }
+
+#sobremi .btn-edit{
+    font-size: 10px;
+    margin-left: 80%;
+}
+
 /*SECCION SERVICIOS*/
 #servicios {
     padding: 100px 15px;
@@ -225,6 +240,39 @@ transition: .5s;
     background-color: #f3f3f3;
 
 }
+#servicios a:hover{
+    background-color: #ff5080;
+    color: #fff;
+}
+#servicios a{
+    display:inline-block;   
+    font-size: 10px;    
+    text-decoration: none;
+    color: #000;
+    border-radius: 30px;
+    padding: 10px 20px;    
+    border: 1px solid #000;
+    margin-top: 10px; 
+ 
+}
+
+#servicios .btn-plus{
+    margin-left: 80%;
+} 
+#servicios .btn-trash{
+    margin-bottom: 10%;
+
+}
+
+#servicios .btn-edit a:hover{
+    background-color: #fff;
+    color:  #ff5080;
+}
+#servicios .btn-trash a:hover{
+    background-color: #fff;
+    color:  #ff5080;
+}
+
 #servicios .titulo-seccion{
     font-size: 22px;
     text-transform: uppercase;
@@ -305,6 +353,12 @@ transition: .5s;
     text-align: center;
     color: #fff;
 
+}
+.contenedor-skills a{
+    padding: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+    color: #fff;
 }
 
 
